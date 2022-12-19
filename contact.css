@@ -1,0 +1,24 @@
+html,body
+{
+margin:0px;
+padding: 0px;
+background: url(bggg.jpg); no-repeat center center fixed; 
+background-size: cover;
+}
+h1
+ {
+   position: absolute;
+   top: 77px;
+   left: 660px;
+   font-family: sans-serif;
+   text-align: center;
+   color:#F9EED9;
+ }
+ p
+ {
+   color:azure;
+   font-size:30px;
+   position: absolute;
+   top: 190px;
+   left: 680px;
+ }

@@ -1,0 +1,25 @@
+html,body
+{
+margin:0px;
+padding: 0px;
+background: url(img1.jpg); no-repeat center center fixed; 
+background-size: cover;
+}
+h1
+ {
+   position: absolute;
+   top: 77px;
+   left: 300px;
+   font-family: sans-serif;
+   text-align: center;
+   color: gold;
+ }
+ table
+ {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top: 250px;
+  left: 170px;
+ }
+ 

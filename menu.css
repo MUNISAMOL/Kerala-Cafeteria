@@ -1,0 +1,113 @@
+html,body
+{
+margin:0px;
+padding: 0px;
+background: url(bgg.jpg); no-repeat center center fixed;
+background-size: cover;
+}
+h1
+ {
+   position: absolute;
+   top: 77px;
+   left: 350px;
+  font-family: sans-serif;
+  text-align: center;
+  color: gold;
+ }
+ .button1
+ {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 225px;
+  left: 530px;
+  border: 2px solid gold;
+  text-align: center;
+  width: 200px;
+  height: 58px;
+  background-color: transparent;
+  border-radius: 15%;
+  animation: button 5s;
+ }
+ .button2
+ { 
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 290px;
+    left: 530px;
+    border: 2px solid gold;
+    text-align: center;
+    width: 200px;
+    height: 58px;
+    background-color: transparent;
+    border-radius: 15%;
+    animation: button 5s;
+}
+.button3
+{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 355px;
+    left: 530px;
+    border: 2px solid gold;
+    text-align: center;
+    width: 200px;
+    height: 58px;
+    background-color: transparent;
+    border-radius: 15%;
+    animation: button 5s;
+}
+ @keyframes button1
+{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 0.5;}
+    80%{opacity: 0.75;}
+    100%{opacity: 1;}
+}
+@keyframes button2
+{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 0.5;}
+    80%{opacity: 0.75;}
+    100%{opacity: 1;}
+}
+@keyframes button3
+{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 0.5;}
+    80%{opacity: 0.75;}
+    100%{opacity: 1;}
+}
+.button1:hover
+{
+    background-color: white;
+    font-color:black;
+}
+.button2:hover
+{
+    background-color: white;
+    font-color:black;
+}
+.button3:hover
+{
+    background-color: white;
+    font-color:black;
+}
+a:link
+{
+    text-decoration: none;
+    color: grey;
+}
+h2
+{
+    font-size: 20px;
+    color:darkgray;
+}
